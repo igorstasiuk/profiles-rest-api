@@ -27,7 +27,7 @@ DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
-    'http://ec2-3-21-129-103.us-east-2.compute.amazonaws.com',
+    'http://ec2-3-21-129-103.us-east-2.compute.amazonaws.com/',
     '127.0.0.1'
 ]
 
